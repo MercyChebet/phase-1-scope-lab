@@ -2,19 +2,18 @@
 var customerName = 'bob';
 
 function upperCaseCustomerName() {
-      window.customerName = window.customerName.toUpperCase();
+      customerName = customerName.toUpperCase();
 }
-
 
 function setBestCustomer() {
-      window.bestCustomer = 'not bob';
+       bestCustomer = 'not bob';
 }
 
-function overwriteBestCustomer(newBestCustomer) {
-      window.bestCustomer = newBestCustomer;
+function overwriteBestCustomer() {
+      bestCustomer = 'maybe bob';
 }
 
-const leastFavoriteCustomer = 'not bob';
-function changeLeastFavoriteCustomer(newLeastFavoriteCustomer) {
-      leastFavoriteCustomer = newLeastFavoriteCustomer;
+const leastFavoriteCustomer = 'chebet';
+function changeLeastFavoriteCustomer() {
+      leastFavoriteCustomer = 'mercy';
 }
